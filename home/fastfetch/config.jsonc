@@ -1,0 +1,118 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "nix",
+        "padding": {
+            "top": 1,
+            "right": 2
+        }
+    },
+    "display": {
+        "separator": "  ",
+        "key": {
+            "width": 16
+        }
+    },
+    "modules": [
+        "title",
+        {
+            "type": "separator",
+            "string": "─"
+        },
+        {
+            "type": "os",
+            "key": "󰀵  \u001b[34mOS"
+        },
+        {
+            "type": "kernel",
+            "key": "󰒓  \u001b[34mKernel"
+        },
+        {
+            "type": "bios",
+            "key": "󰋊  \u001b[34mBIOS"
+        },
+        {
+            "type": "packages",
+            "key": "󰏖  \u001b[34mPackages"
+        },
+        {
+            "type": "shell",
+            "key": "󰆍  \u001b[34mShell"
+        },
+        {
+            "type": "terminal",
+            "key": "󱄄  \u001b[34mTerminal"
+        },
+        {
+            "type": "terminalfont",
+            "key": "󰛖  \u001b[34mFont"
+        },
+        "break",
+        {
+            "type": "host",
+            "key": "󰌢  \u001b[34mHost"
+        },
+        {
+            "type": "cpu",
+            "key": "󰘚  \u001b[34mCPU"
+        },
+        {
+            "type": "gpu",
+            "key": "󰢮  \u001b[34mGPU"
+        },
+        {
+            "type": "memory",
+            "key": "󰍛  \u001b[34mMemory"
+        },
+        {
+            "type": "disk",
+            "key": "󰋊  \u001b[34mDisk"
+        },
+        {
+            "type": "battery",
+            "key": "󰁹  \u001b[34mBattery"
+        },
+        {
+            "type": "display",
+            "key": "󰍹  \u001b[34mDisplay"
+        },
+        {
+            "type": "uptime",
+            "key": "󰅐  \u001b[34mUptime"
+        },
+        {
+            "type": "loadavg",
+            "key": "󰊚  \u001b[34mLoad"
+        },
+        {
+            "type": "processes",
+            "key": "󰐌  \u001b[34mProcs"
+        },
+        "break",
+        {
+            "type": "localip",
+            "key": "󰩟  \u001b[34mIP"
+        },
+        {
+            "type": "dns",
+            "key": "󰇖  \u001b[34mDNS"
+        },
+        {
+            "type": "wifi",
+            "key": "󰤨  \u001b[34mWiFi"
+        },
+        {
+            "type": "publicip",
+            "key": "󰖟  \u001b[34mPublic IP"
+        },
+        "break",
+        {
+            "type": "separator",
+            "string": "─"
+        },
+        {
+            "type": "colors",
+            "symbol": "circle"
+        }
+    ]
+}
