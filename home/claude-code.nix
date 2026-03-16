@@ -151,6 +151,7 @@
       DISABLE_TELEMETRY = "1";
       DISABLE_ERROR_REPORTING = "1";
       CLAUDE_CODE_DISABLE_BACKGROUND_TASKS = "1";
+      CLAUDE_AUTOCOMPACT_PCT_OVERRIDE = "80";
     };
 
     # Transcript cleanup
@@ -163,6 +164,21 @@
     attribution = {
       commits = true;
       pullRequests = true;
+    };
+
+    # Hooks — play a sound when Claude stops (task complete or awaiting input)
+    hooks = {
+      Stop = [
+        {
+          matcher = "";
+          hooks = [
+            {
+              type = "command";
+              command = "afplay /System/Library/Sounds/Blow.aiff &";
+            }
+          ];
+        }
+      ];
     };
   };
 }

@@ -28,6 +28,7 @@
       gd = "git diff";
       gco = "git checkout";
       nixd = "cd ~/.config/nix-darwin";
+      nixup = "nixd && nix flake update && gaa && rebuild";
       rebuild = "sudo darwin-rebuild switch --flake ~/.config/nix-darwin";
       rollback = "sudo darwin-rebuild switch --rollback";
       nix-gc = "nix-collect-garbage --delete-older-than 30d";
